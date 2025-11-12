@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.11205.157 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClientProviders", "ChatClientProviders\ChatClientProviders.csproj", "{E4D71449-1F48-4A92-8145-E8550976F5B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. ChatClientProviders", "ChatClientProviders\1. ChatClientProviders.csproj", "{E4D71449-1F48-4A92-8145-E8550976F5B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTurnConversation", "MultiTurnConversation\MultiTurnConversation.csproj", "{815DD9EB-B8DE-C887-9040-FA226ACC3D74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. MultiTurnConversation", "MultiTurnConversation\2. MultiTurnConversation.csproj", "{815DD9EB-B8DE-C887-9040-FA226ACC3D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleISDAgent", "SimpleISDAgent\SimpleISDAgent.csproj", "{86838C2E-76BD-0201-A392-D6F8E2B5CDED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. SimpleISDAgent", "SimpleISDAgent\3. SimpleISDAgent.csproj", "{86838C2E-76BD-0201-A392-D6F8E2B5CDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAIIsdAgentTool", "OpenAIIsdAgentTool\OpenAIIsdAgentTool.csproj", "{B19F476E-76E3-D83B-D0FB-5DAC209ACE8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. OpenAIIsdAgentTool", "OpenAIIsdAgentTool\4. OpenAIIsdAgentTool.csproj", "{B19F476E-76E3-D83B-D0FB-5DAC209ACE8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		shots.txt = shots.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

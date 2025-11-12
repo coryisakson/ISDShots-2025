@@ -41,7 +41,6 @@ while (true)
     Console.WriteLine();
 }
 
-
 IChatClient CreateAzureChatClient()
 {
     var endpoint = Environment.GetEnvironmentVariable("AZURE_OPENAI_ENDPOINT") ?? throw new InvalidOperationException("AZURE_OPENAI_ENDPOINT is not set.");

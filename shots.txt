@@ -1,0 +1,32 @@
+0. Best of SemanticKernel and AutoGen. Abstraction for Agents that are created anywhere, CoPilot Studio, AI Foundry, MCP, A2A, Custom.
+
+1. ChatClient Providers all conform to IChatClient making it easy to swap out Providers
+
+Sample with OpenAI and Ollama ChatClients where they each are created as IChatClient and then passed to a function to CreateAIAgent and invoke it
+
+2. Multi-turn with AgentThread. InMemory, persistent, long running
+
+Sample with follow-up questions
+
+3. AIAgent base makes custom agent creation super simple. No LLM required.
+
+Example for ISD SHOTS using InMemory ThreadProvider
+Run and RunStreaming both take messages and return messages
+
+
+
+Note: Think about Agents, Tools, Workflows as input and output. Everything has been abstracted to this simple construct.
+
+4. Agent as Tool. Chat Agent uses ISD SHOTS Agent
+
+Example uses ISD SHOTS agent 
+
+5. Agent as MCP Server
+
+Show Example Step 10
+https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/GettingStarted/Agents/Agent_Step10_AsMcpTool/Program.cs
+
+5. Agents as Workflow. Agent is an Executor
+
+Run Agent Workflow Patterns
+https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/GettingStarted/Workflows/_Foundational/04_AgentWorkflowPatterns/Program.cs
